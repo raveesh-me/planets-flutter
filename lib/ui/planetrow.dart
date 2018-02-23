@@ -91,6 +91,7 @@ class PlanetRow extends StatelessWidget {
           )
         ]
       ),
+      child: planetCardContent,
     );
 
     return new Container(
