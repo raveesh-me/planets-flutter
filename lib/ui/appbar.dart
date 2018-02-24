@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-
 class GradientAppBar extends StatelessWidget{
   final String _title;
   final double barHeight = 66.0;
@@ -17,7 +16,7 @@ class GradientAppBar extends StatelessWidget{
       height: barHeight + statusBarHeight,
         decoration: new BoxDecoration(
           gradient: new LinearGradient(
-            colors: [Colors.blue[800], Colors.blue[400]],
+            colors: [Colors.deepPurple[900], Colors.deepPurple[400]],
           begin: const FractionalOffset(0.0, 0.0),
             end: const FractionalOffset(1.0, 0.0),
             stops: [0.0, 1.0],
